@@ -1,5 +1,5 @@
 function fake3(){
-	alert('fake 3');
+	alert('REALLY, REALLY FAKE 3');
 };
 
 module.exports = {
