@@ -3,7 +3,7 @@
  */
 
 function startup(){
-	require('./fake1').fake1();
+	require('../module1/fake1').fake1();
 	return 'This is the start of the test.';
 };
 
@@ -12,12 +12,12 @@ function shutdown(){
 };
 
 function start(){
-	alert('Depracated. Please use startup() insteand.');
+	alert('Deprecated. Please use startup() insteand.');
 	alert(startup());
 };
 
 function stop(){
-	alert('Depracated. Please use shutdown() insteand.');
+	alert('Deprecated. Please use shutdown() insteand.');
 	alert(shutdown());
 };
 
