@@ -3,6 +3,7 @@
  */
 
 function startup(){
+	require('fake1').fake1();
 	return 'This is the start of the test.';
 };
 
