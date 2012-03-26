@@ -2,7 +2,7 @@
  * @author Mahlon Gumbs
  */
 function go(){
-	alert('this is a test call from module1.');
+	alert("I'm going. I'm going!");
 };
 
 function stope(){
