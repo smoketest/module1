@@ -1,7 +1,7 @@
 /**
  * @author Mahlon Gumbs
  */
-function startTest(){
+function start(){
 	alert('this is the start of the test');
 };
 
