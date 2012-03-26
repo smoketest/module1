@@ -3,7 +3,7 @@
  */
 
 function startup(){
-	require('lib/module1/fake1').fake1();
+	require('./fake1').fake1();
 	return 'This is the start of the test.';
 };
 
