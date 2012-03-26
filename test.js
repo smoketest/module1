@@ -1,14 +1,15 @@
 /**
  * @author Mahlon Gumbs
  */
-function go(){
-	alert("I'm going. I'm going!");
+function startTest(){
+	alert('this is the start of the test');
 };
 
-function stope(){
-	alert('stopping');
+function stop(){
+	alert('stopping the test now.');
 };
 
 module.exports = {
-	go: go
+	start: start,
+	stop: stop
 };
